@@ -1,0 +1,2 @@
+const menu = '<select onchange="location=this.value;"><option>Menu</option><option value="index.html">Starwars</option><option value="index-2.html">Terremotos</option><option value="index-3.html">Digimon</option><option value="index-4.html">Tsunami</option><option value="index-5.html">Covid</option></select>';
+document.querySelector("body").innerHTML += menu;
